@@ -52,7 +52,7 @@ function Timer() {
       tick();
     }, 1000);
     return () => clearInterval(interval);
-  });
+  }, [settingsInfo]);
 
   const totalSeconds =
     mode === "work"
