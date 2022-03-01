@@ -11,6 +11,7 @@ function App() {
 
   return (
     <main>
+      <div className="title-app">pomodoro</div>
       <SettingsContext.Provider
         value={{
           showSettings,
