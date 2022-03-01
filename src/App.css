@@ -3,16 +3,16 @@
   --green: #4aec8c;
 }
 body {
-  background: #44a08d; /* fallback for old browsers */
+  background: #200122; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #093637,
-    #44a08d
+    #6f0000,
+    #200122
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #093637,
-    #44a08d
+    #6f0000,
+    #200122
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #eee;
@@ -49,4 +49,12 @@ label {
   margin-bottom: 20px;
   margin-top: 20px;
   text-transform: capitalize;
+}
+.title-app {
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 45px;
+  border-radius: 10px;
 }
