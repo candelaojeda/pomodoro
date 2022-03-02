@@ -13,7 +13,11 @@ function BackButton(props) {
           clipRule="evenodd"
         />
       </svg>
+<<<<<<< HEAD
       Back 
+=======
+      Back
+>>>>>>> 7c8c5d603716e5279468ded993dc0eddd07df220
     </button>
   );
 }

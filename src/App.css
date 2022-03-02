@@ -3,6 +3,7 @@
   --green: #4aec8c;
 }
 body {
+<<<<<<< HEAD
   background: #200122; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -15,6 +16,9 @@ body {
     #200122
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+=======
+  background-color: #30384b;
+>>>>>>> 7c8c5d603716e5279468ded993dc0eddd07df220
   color: #eee;
 }
 main {
@@ -50,6 +54,7 @@ label {
   margin-top: 20px;
   text-transform: capitalize;
 }
+<<<<<<< HEAD
 .title-app {
   margin: 30px;
   text-transform: uppercase;
@@ -58,3 +63,5 @@ label {
   font-size: 45px;
   border-radius: 10px;
 }
+=======
+>>>>>>> 7c8c5d603716e5279468ded993dc0eddd07df220

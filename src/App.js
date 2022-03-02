@@ -11,7 +11,10 @@ function App() {
 
   return (
     <main>
+<<<<<<< HEAD
       <div className="title-app">pomodoro</div>
+=======
+>>>>>>> 7c8c5d603716e5279468ded993dc0eddd07df220
       <SettingsContext.Provider
         value={{
           showSettings,
